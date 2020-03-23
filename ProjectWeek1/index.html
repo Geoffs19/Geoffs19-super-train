@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="grey-background">
+    <!--hamburger menu-->
+
+    <div id="drop-menu">
+      <span class="burger-toggle" id="toggleBurger">
+        <img src="menu.jpg" style="width:60px;height:60px;" />
+      </span>
+
+      <!--Inside hamburger-->
+      <nav class="main-nav" id="navMain">
+        <ul>
+          <li onclick="changeBackground('orange');">ORANGE</li>
+          <li onclick="changeBackground('yellow');">YELLOW</li>
+          <li onclick="changeBackground('green');">GREEN</li>
+          <li onclick="changeBackground('red');">RED</li>
+          <li onclick="changeBackground('blue');">BLUE</li>
+        </ul>
+      </nav>
+    </div>
+    <!--Inside hamburger-->
+  </body>
+</html>

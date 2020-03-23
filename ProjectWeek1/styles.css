@@ -1,0 +1,20 @@
+/* default background */
+.grey-background {
+  background: grey;
+}
+
+/* hides the list */
+.main-nav {
+  display: none;
+}
+
+/* takes bullet points out list */
+.main-nav ul li {
+  list-style: none;
+  line-height: 30px;
+}
+
+/* added in javascript */
+.active {
+  display: block;
+}
